@@ -4,7 +4,7 @@ Watch the full video here: https://youtu.be/LPOkBC2yxto
 
 The 'Function' Node Code:
 ```yaml
-var item = ["Food", "Paper", "Normal", "Plastic", "Food", "Nothing", "Nothing"]
+var item = [ "Nothing", "Food", "Paper", "Normal", "Plastic", "Food", "Nothing"]
 let d = new Date();
 
 msg.payload = 
