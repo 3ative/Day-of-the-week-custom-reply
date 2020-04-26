@@ -12,5 +12,7 @@ msg.payload =
 return msg;
 ```
 
+And here is the full Node-Red Nodes so you can copy and import:
+https://github.com/3ative/Day-of-the-week-custom-reply/blob/master/what_bins_nr_nodes.json
 
 <a href="https://www.buymeacoffee.com/3ative" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
