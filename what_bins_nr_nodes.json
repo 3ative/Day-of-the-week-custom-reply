@@ -1,0 +1,63 @@
+[
+    {
+        "id": "b10cd1f4.8add3",
+        "type": "link out",
+        "z": "2e966a6a.21af76",
+        "name": "Speak",
+        "links": [
+            "aeaf196.c86c2e8"
+        ],
+        "x": 620,
+        "y": 640,
+        "wires": [],
+        "icon": "node-red-contrib-amazon-echo/amazon-echo-hub.svg",
+        "l": true
+    },
+    {
+        "id": "e56298ad.343458",
+        "type": "function",
+        "z": "2e966a6a.21af76",
+        "name": "Bin contents",
+        "func": "var item = [ \"Nothing\", \"Food\", \"Paper\", \"Normal\", \"Plastic\", \"Food\", \"Nothing\"]\nlet d = new Date();\n\nmsg.payload = \n\"Today, you have \" + item[d.getDay()] + \" to put out \"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 460,
+        "y": 640,
+        "wires": [
+            [
+                "b10cd1f4.8add3"
+            ]
+        ]
+    },
+    {
+        "id": "d3d9428a.9f231",
+        "type": "amazon-echo-device",
+        "z": "2e966a6a.21af76",
+        "name": "Bins",
+        "topic": "",
+        "x": 300,
+        "y": 640,
+        "wires": [
+            [
+                "e56298ad.343458"
+            ]
+        ]
+    },
+    {
+        "id": "fa850755.5b7b78",
+        "type": "link in",
+        "z": "2e966a6a.21af76",
+        "name": "Echo in",
+        "links": [
+            "e6126d01.dc305"
+        ],
+        "x": 215,
+        "y": 640,
+        "wires": [
+            [
+                "d3d9428a.9f231"
+            ]
+        ],
+        "icon": "node-red-contrib-alexa-home-skill/alexa.png"
+    }
+]
