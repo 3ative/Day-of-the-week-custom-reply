@@ -15,4 +15,9 @@ return msg;
 And here is the full Node-Red Nodes so you can copy and import:
 https://github.com/3ative/Day-of-the-week-custom-reply/blob/master/what_bins_nr_nodes.json
 
-[![BMC](https://www.buymeacoffee.com/assets/img/custom_images/white_img.png)](https://www.buymeacoffee.com/3ative)
+🎁 Found this useful or want to say 'thanks' and support my efforts...
+
+[![BMC](https://www.buymeacoffee.com/assets/img/custom_images/white_img.png)](https://www.buymeacoffee.com/3ative) **And leave a me a message to let me know.**  ❤
+
+🍺 CHEERS! 👍
+
