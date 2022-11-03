@@ -15,6 +15,7 @@ return msg;
 And here is the full Node-Red Nodes so you can copy and import:
 https://github.com/3ative/Day-of-the-week-custom-reply/blob/master/what_bins_nr_nodes.json
 
+___
 #### 💖 Found this useful, want to say '*Thanks*' and support my efforts. *CHEERS*🍺
 | Buy me a Coffee | PATREON |
 |-----------------|---------|
